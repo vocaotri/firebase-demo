@@ -15,7 +15,7 @@ class FirebaseService
     public function __construct()
     {
         $this->firebase = (new Factory)
-            ->withServiceAccount(__DIR__ .'./pushnotifications-262201-firebase-adminsdk-y7zmb-c85aef9557.json')
+            ->withServiceAccount(__DIR__ .'/pushnotifications-262201-firebase-adminsdk-y7zmb-c85aef9557.json')
             ->withDatabaseUri('https://pushnotifications-262201.firebaseio.com/');
     }
     /**
