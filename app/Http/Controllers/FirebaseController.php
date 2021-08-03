@@ -48,7 +48,7 @@ class FirebaseController extends BaseController
                 'link' => 'https://www.kenh14.com/'
             ],
         ]);
-        $deviceToken = 'd9gr5zRU6t6Bw65Vru6Eig:APA91bEJN5vYFE7zuE6nmei9M2tRQ-_pFhGVf0neQbw8n-a_HXbWmlDBOZiCwQ_vME1Jjm1Q4m2cgXBOWOweAftFd8390p0Gln-o4BCddwXq9Va3x3zIGDCtQNTl2DQyCiWRcqiVXal7';
+        $deviceToken = 'd0g0wiNvxzvLSaCEK2k8w4:APA91bHqDCvTaQ6NVCHLjcc97DYHf3JeosMReqJC-56gdSu53tAQGs73pib_AlVpXD8IIEHS8n5PW01auombBXXpumDM3s1RWS9MNrIYzGIhRJHjIafNnVa20m9hUt0Kj-cawuBQHBnm';
         $message = CloudMessage::fromArray([
             'token' => $deviceToken,
             'notification' => [
